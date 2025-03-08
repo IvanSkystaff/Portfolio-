@@ -75,3 +75,71 @@ background-image: url(img/bgCOMMENTS.png);
 .button:hover{
     background-color: #a0d826;
 }
+.moving-planet{
+    background: 
+    url(img/moving-planet.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 230px;
+    transform: rotate(-15deg);
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes move{
+  from{transform: translateY(0px);}
+  to{transform: translateY(70px);}
+}
+.title{
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    text-shadow: 5px 5px 0 #000000;
+}
+.about-content{
+    width: 50%;
+    height: 270px;
+    margin: auto;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 40px;
+    background-color: #792AFF;
+    position: relative;
+    display: flex;
+}
+.about-block{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Comfortaa";
+}
+.about-card {
+    background-image: url(img/form2.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.about-card p{
+    color: #000;
+    font-size: 17px;
+    align-self: start;
+    margin-left: 20px;
+    line-height: 25px;
+    font-family: "Comfortaa";
+}
+.about-card img{
+    margin-bottom: 20px;
+    
+}
