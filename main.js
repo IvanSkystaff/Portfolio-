@@ -1,0 +1,36 @@
+let menu = document.querySelector(".fixed-menu")
+menu.addEventListener('click', function(event){
+    let clickTarget = event.target;
+    let currentActive = document.querySelector('.active')
+    if (clickTarget.classList.contains('nav-link'))
+    clickTarget.classList.add('active');
+    currentActive.classList.remove('active');
+})
+
+let classlink = '.main-link';
+
+window.onscroll = function() {
+    let h = document.documentElement.clientHeight;                                
+    if (window.scrollY >= h*4) {
+        classlink = '.comments-link';
+    }
+    else if (window.scrollY >= h*3) {
+        classlink = '.works-link';
+    } 
+    else if (window.scrollY >= h*2) {
+        classlink = '.skills-link';
+    }
+    else if(window.scrollY >= h) {
+        classlink = '.about-link';
+    }
+    else{
+        classlink = '.main-link';
+    }
+    let activeBtn = document.querySelector('.active');
+let newActiveBtn = document.querySelector(classlink);
+
+if (!newActiveBtn.classList.contains('active')){
+    newActiveBtn.classList.add('active');
+    activeBtn.classList.remove('active')
+};}
+
