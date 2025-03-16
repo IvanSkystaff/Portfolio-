@@ -315,20 +315,26 @@ footer{
         font-size: 50px;
         padding-top: 30px;
     }
-    .about-block{
+    .about-content{
         flex-direction: column;
         margin-top: 20px;
         padding: 0;
+        padding-bottom: 250px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
     .about-card{
         order: -1;
         background-size: contain;
         padding-top: 20px;
         width: 326px;
-        height: 296;
+        height: 296px;
     }
     .about-card img{
         width: 85%;
+        padding-right: 10px;
+        padding-top: 20px;
     }
     .about-content{
         width: 75%;
@@ -364,14 +370,16 @@ footer{
         width: 80%;
     }
     .comments-block{
+        margin-top: 175px;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        margin: 0 auto;
         padding-top: 50px;
     }
     .comment{
         background-image: url(img/comment-mobile.png);
+        width: 400px;
+        margin-top: 5px;
     }
     .comment p{
         font-size: 15px;
