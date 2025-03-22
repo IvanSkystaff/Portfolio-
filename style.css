@@ -444,7 +444,6 @@ footer{
         white-space: nowrap;
     }
     .skills-card .button{
-        position: absolute;
-        bottom: 400px;
+        bottom: 40000px;
     }
 }
