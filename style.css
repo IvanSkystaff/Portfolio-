@@ -432,14 +432,12 @@ footer{
     }
     .about-content{
         padding-bottom: 320px;
-        padding-left: 10px;
-        padding-right: 5px;
     }
     .skills-card{
         background-size: 550px;
     }
     .skills-card .button{
-        bottom: 440px;
+        bottom: 370px;
     }
     .footer-info{
         margin-top: 10px;
