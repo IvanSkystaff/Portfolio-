@@ -346,6 +346,9 @@ footer{
     .main-subtitle{
         font-size: 15px;
     }
+    .first-button{
+        bottom: 50px;
+    }
     .planet, .moving-cloud, .moving-planet2{
         display: none;
     }
@@ -374,6 +377,9 @@ footer{
         padding-right: 10px;
         padding-top: 20px;
     }
+    .about-card button{
+        padding-bottom: 7px;
+    }
     .about-content{
         width: 75%;
         height: 250px;
@@ -397,7 +403,7 @@ footer{
     }
     .skills-card .button{
         position: absolute;
-        bottom: 920px;
+        bottom: 500px;
     }
     .works-block{
         flex-direction: column;
