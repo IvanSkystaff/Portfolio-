@@ -432,21 +432,24 @@ footer{
     }
     .about-content{
         padding-bottom: 320px;
+        padding-left: 10px;
+        padding-right: 5px;
     }
     .skills-card{
         background-size: 550px;
     }
+    .skills-card .button{
+        bottom: 440px;
+    }
     .footer-info{
+        margin-top: 10px;
         margin-left: 10px;
     }
     .footer-year{
         margin-right: 70px;
         white-space: nowrap;
     }
-    .skills-card .button{
-        bottom: 400px;
-    }
     .comment{
-        width: 300px;
+        width: 350px;
     }
 }
