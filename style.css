@@ -210,6 +210,10 @@ background-image: url(img/bgCOMMENTS.png);
     margin-bottom: 20px;
     position: relative;
 }
+.about-card img{
+    height: 186px;
+    width: 336px;
+}
 .about-title{
     font-family: "Comfortaa";
 }
