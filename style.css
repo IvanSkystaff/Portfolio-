@@ -357,7 +357,7 @@ footer{
         padding-top: 30px;
     }
     #about{
-        margin-top: 20px;
+        height: 110vh;
     }
     .about-content{
         flex-direction: column;
@@ -406,7 +406,7 @@ footer{
     }
     .skills-card .button{
         position: absolute;
-        bottom: 150px;
+        bottom: 170px;
     }
     .works-block{
         flex-direction: column;
