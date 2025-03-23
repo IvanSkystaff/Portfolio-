@@ -213,6 +213,7 @@ background-image: url(img/bgCOMMENTS.png);
 .about-card img{
     height: 186px;
     width: 336px;
+    margin-right: 10px;
 }
 .about-title{
     font-family: "Comfortaa";
