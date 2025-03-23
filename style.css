@@ -399,11 +399,12 @@ footer{
         margin-bottom: 20px;
     }
     .skills-section{
+        margin-top: 20px;
         min-height: 60vh;
     }
     .skills-card .button{
         position: absolute;
-        bottom: 500px;
+        bottom: 380px;
     }
     .works-block{
         flex-direction: column;
