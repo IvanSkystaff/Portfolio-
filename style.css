@@ -347,7 +347,7 @@ footer{
         font-size: 15px;
     }
     .first-button{
-        bottom: 50px;
+        margin-bottom: 40px;
     }
     .planet, .moving-cloud, .moving-planet2{
         display: none;
