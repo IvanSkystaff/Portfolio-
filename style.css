@@ -358,7 +358,6 @@ footer{
     }
     .about-content{
         flex-direction: column;
-        margin-top: 20px;
         padding: 0;
         padding-bottom: 250px;
         padding-top: 10px;
@@ -388,9 +387,6 @@ footer{
     .about-title{
         font-size: 18px;
     }
-    .skills{
-        margin-top: 20px;
-    }
     .skills-card{
         margin: 20px;
         padding-left: 10px;
@@ -406,7 +402,7 @@ footer{
     }
     .skills-card .button{
         position: absolute;
-        bottom: 280px;
+        bottom: 200px;
     }
     .works-block{
         flex-direction: column;
