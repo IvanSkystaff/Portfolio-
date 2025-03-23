@@ -357,7 +357,7 @@ footer{
         padding-top: 30px;
     }
     #about{
-        height: 102vh;
+        min-height: 102vh;
     }
     .about-content{
         flex-direction: column;
