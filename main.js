@@ -43,8 +43,8 @@ window.onscroll = function() {
     }
     let activeBtn = document.querySelector('.active');
     let newActiveBtn = document.querySelector(classlink);
-    activeBtn.classlist.remove("active");
-    newActiveBtn.classlist.add("active");
+    activeBtn.classList.remove("active");
+    newActiveBtn.classList.add("active");
 }
 
 document.querySelector(".mobile-button").addEventListener("click", function(event){
